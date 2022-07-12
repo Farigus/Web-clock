@@ -57,7 +57,7 @@ function showDate() {
       month = "August";
       break;
     case 8:
-      month = "Septemebr";
+      month = "September";
       break;
     case 9:
       month = "October";
