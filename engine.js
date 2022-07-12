@@ -73,19 +73,19 @@ function showDate() {
   switch (day) {
     case 1:
       dateInfo.innerText =
-        "Today is " + month + " the " + day + "st of " + year + " year!";
+        "Today is " + month + " " + day + " of " + year + " year!";
       break;
     case 2:
       dateInfo.innerText =
-        "Today is " + month + " the " + day + "nd of " + year + " year!";
+        "Today is " + month + " " + day + " of " + year + " year!";
       break;
     case 3:
       dateInfo.innerText =
-        "Today is " + month + " the " + day + "rd of " + year + " year!";
+        "Today is " + month + " " + day + " of " + year + " year!";
       break;
     default:
       dateInfo.innerText =
-        "Today is " + month + " the " + day + "th of " + year + " year!";
+        "Today is " + month + " " + day + " of " + year + " year!";
       break;
   }
 
